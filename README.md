@@ -705,6 +705,167 @@ Detailed documentation available in `/docs` folder:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
+## 📋 Portfolio Projects
+
+### 🏗️ Related Data Engineering Projects by Sai Deva Puttur
+
+This repository is part of a comprehensive data engineering portfolio demonstrating expertise across various domains:
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🏢 Real Estate Portfolio Analytics Pipeline
+
+![Real Estate Analytics](https://img.shields.io/badge/Status-Production-brightgreen)
+![Tech Stack](https://img.shields.io/badge/Stack-Python%20|%20AWS%20|%20Airflow-blue)
+
+**End-to-end automated pipeline** ingesting property data from Buildium API into AWS S3, orchestrated with Airflow, modeled in Snowflake star schema, visualized in Power BI.
+
+**Key Achievements:**
+- ✅ Reduced manual data entry from 8 hrs/week to zero
+- ✅ 15% NOI improvement through data-driven insights
+- ✅ Automated daily ETL processing 50+ properties
+
+**Tech:** Python, SQL, Airflow, AWS S3, Snowflake, Power BI
+
+**Impact:** Real-time portfolio performance tracking across NJ, AR, TX properties with automated NOI calculations and occupancy metrics.
+
+</td>
+<td width="50%">
+
+#### ⚡ Property Market Data Streaming Pipeline
+
+![Streaming](https://img.shields.io/badge/Status-Live-success)
+![Performance](https://img.shields.io/badge/Latency-%3C5s-green)
+
+**Real-time streaming architecture** processing 1000+ events/hour from property APIs using Kafka and Spark Structured Streaming, storing in PostgreSQL for market trend analysis.
+
+**Key Achievements:**
+- ✅ <5 sec end-to-end latency
+- ✅ 99.2% data quality accuracy
+- ✅ Real-time market insights
+
+**Tech:** Python, Kafka, Spark, PostgreSQL, Docker
+
+**Impact:** Enables instant property market analysis and competitive pricing decisions with streaming data integration.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 📋 Tenant & Lease Management ETL
+
+![ETL Pipeline](https://img.shields.io/badge/Type-Batch%20ETL-orange)
+![Automation](https://img.shields.io/badge/Automation-90%25-yellow)
+
+**Production ETL** with DBT transformations, Airflow orchestration, Great Expectations data quality. Implements dimensional modeling for tenant analytics in BigQuery.
+
+**Key Achievements:**
+- ✅ Automated lease expiry alerts
+- ✅ 90% reduction in manual reporting
+- ✅ Full data lineage tracking
+
+**Tech:** Python, DBT, Airflow, BigQuery
+
+**Impact:** Comprehensive tenant lifecycle management with predictive analytics for lease renewals.
+
+</td>
+<td width="50%">
+
+#### 🔧 Property Maintenance Prediction System
+
+![ML Pipeline](https://img.shields.io/badge/Type-ML%20Pipeline-purple)
+![Accuracy](https://img.shields.io/badge/Accuracy-87%25-brightgreen)
+
+**Batch ML pipeline** on Azure Data Factory ingesting maintenance records and weather data, featuring automated predictions for proactive property management.
+
+**Key Achievements:**
+- ✅ 87% prediction accuracy
+- ✅ Proactive maintenance scheduling
+- ✅ Cost reduction through prevention
+
+**Tech:** Python, Azure ADF, Azure Synapse
+
+**Impact:** Predictive maintenance reduces emergency repairs and extends asset lifespan.
+
+</td>
+</tr>
+</table>
+
+### 📈 Example Data Visualizations
+
+<div align="center">
+
+#### Pipeline Performance Dashboard
+
+```mermaid
+graph LR
+    A[Data Sources] -->|Ingestion| B[Kafka Topics]
+    B -->|Stream Processing| C[Spark Streaming]
+    C -->|Transform| D[Data Lake S3]
+    D -->|Batch Processing| E[Spark ETL]
+    E -->|Aggregate| F[Data Warehouse]
+    F -->|Visualize| G[Tableau Dashboard]
+    
+    style A fill:#e1f5ff
+    style B fill:#ffe1e1
+    style C fill:#fff4e1
+    style D fill:#e1ffe1
+    style E fill:#fff4e1
+    style F fill:#e1e1ff
+    style G fill:#ffe1f5
+```
+
+#### Sample Data Flow Metrics
+
+| Metric | Real-Time Processing | Batch Processing |
+|--------|---------------------|------------------|
+| **Throughput** | 1M+ msg/sec | 10TB+ daily |
+| **Latency** | <1 second | 5-10 minutes |
+| **Data Quality** | 99.9% | 99.99% |
+| **Availability** | 99.9% SLA | 99.95% SLA |
+| **Cost per TB** | $0.05 | $0.02 |
+
+#### Architecture Complexity Score
+
+```
+Components:
+████████████████████ Kafka (20 topics)
+███████████████ Spark (15 jobs)
+████████████ Airflow (12 DAGs)
+████████ Storage (8 layers)
+█████ Monitoring (5 dashboards)
+```
+
+#### Real-World Data Volume Example
+
+```python
+# Daily Data Processing Statistics
+{
+    "streaming_data": {
+        "events_per_second": 12500,
+        "daily_events": 1080000000,  # 1.08 Billion
+        "avg_event_size_kb": 2.5,
+        "daily_volume_tb": 2.7
+    },
+    "batch_data": {
+        "daily_files": 45000,
+        "avg_file_size_mb": 250,
+        "daily_volume_tb": 11.25,
+        "processing_time_hours": 6
+    },
+    "total_daily_volume_tb": 13.95,
+    "retention_period_days": 90,
+    "total_storage_tb": 1255.5
+}
+```
+
+</div>
+
+---
+
 
 **Sai Deva Puttur**
 - GitHub: [@Saideva0318](https://github.com/Saideva0318)
