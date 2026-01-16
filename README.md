@@ -887,8 +887,8 @@ For questions, issues, or feedback:
 
 - 🐛 **Bug Reports**: [GitHub Issues](https://github.com/Saideva0318/end-to-end-data-pipeline/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/Saideva0318/end-to-end-data-pipeline/discussions)
-- 📧 **Email**: saideva@example.com
-- 💔 **LinkedIn**: [Connect with me](https://linkedin.com/in/sai-deva-puttur)
+- 📧 **Email**: saidevaputtur@gmail.com
+- 💔 **LinkedIn**: [Connect with me](https://www.linkedin.com/in/sai-deva-puttur/)
 
 ## 🏆 Project Status
 
