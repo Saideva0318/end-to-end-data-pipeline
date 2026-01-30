@@ -2,6 +2,25 @@
 
 <div align="center">
 
+<!-- Build & Quality Badges -->
+![GitHub Actions](https://img.shields.io/github/actions/workflow/status/Saideva0318/end-to-end-data-pipeline/ci.yml?branch=main&label=CI%2FCD&logo=github-actions&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg?logo=python&logoColor=white)
+![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)
+
+<!-- Repository Stats -->
+![Last Commit](https://img.shields.io/github/last-commit/Saideva0318/end-to-end-data-pipeline)
+![Repo Size](https://img.shields.io/github/repo-size/Saideva0318/end-to-end-data-pipeline)
+![Contributors](https://img.shields.io/github/contributors/Saideva0318/end-to-end-data-pipeline)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Stars](https://img.shields.io/github/stars/Saideva0318/end-to-end-data-pipeline?style=social)
+![Forks](https://img.shields.io/github/forks/Saideva0318/end-to-end-data-pipeline?style=social)
+
+</div>
+
+
+<div align="center">
+
 ### 🎯 Enterprise-Scale Data Engineering Project | Production-Ready | Cloud-Native
 
 [![Complexity](https://img.shields.io/badge/Complexity-Advanced-red)](https://github.com/Saideva0318/end-to-end-data-pipeline)
